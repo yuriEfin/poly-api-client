@@ -22,7 +22,7 @@
 2. Нажмите «Добавить в Chrome».
 3. Откройте расширение с иконки на панели, создайте запрос или импортируйте коллекцию, нажмите Send.
 
-Сайт, тарифы и список форматов: [polyapiclient.ru](https://polyapiclient.ru?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [быстрый старт](https://polyapiclient.ru/quick-start) · [возможности](https://polyapiclient.ru/features?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)
+Сайт, тарифы и список форматов: [polyapiclient.ru](https://polyapiclient.ru?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [быстрый старт](https://polyapiclient.ru/quick-start?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [возможности](https://polyapiclient.ru/features?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)
 
 В Edge и других Chromium-браузерах открывается та же страница магазина Chrome.
 
