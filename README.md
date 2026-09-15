@@ -30,12 +30,14 @@ HTTP-клиент и API IDE во вкладке Chrome: REST, GraphQL, WebSocke
 
 ## Что умеет
 
-- Запросы REST, GraphQL, WebSocket, SOAP; **gRPC — через JSON-шлюз**, не нативный protobuf
+- Запросы REST, GraphQL, WebSocket, SOAP, **SSE**; **gRPC — через JSON-шлюз**, не нативный protobuf
 - Несколько пространств, коллекции, окружения, переменные `{{baseUrl}}` и `{{token}}`
 - Слои HTTP-настроек: IDE → пространство → запрос
 - Скрипты до и после отправки в локальной песочнице (`poly`; `pm` — совместимый алиас)
-- Импорт на Free: OpenAPI, WSDL, GraphQL, `.proto`, AsyncAPI, Postman, curl, Insomnia, Hoppscotch, Thunder
+- Импорт на Free: OpenAPI, WSDL, GraphQL, `.proto`, AsyncAPI, HAR, Postman, curl, Insomnia, Hoppscotch, Thunder
+- Захват запросов одной вкладки — только после вашей кнопки
 - Проверки после Send, прогоны коллекций и нагрузка из браузера
+- На платном тарифе: патчи, экспорт коллекции папкой (файлы кладёте в свой репозиторий сами), публичная ссылка на список запросов, применение входящего патча MCP
 - Интерфейс на русском и английском, светлая и тёмная тема
 
 На сервер уходит только то, что вы сами включили: ключ, ручной бэкап, история помощника, обращение в поддержку.
@@ -51,7 +53,7 @@ HTTP-клиент и API IDE во вкладке Chrome: REST, GraphQL, WebSocke
 | Клиент, импорт, скрипты | Да | Да | Да | Да |
 | Аккаунт | Не нужен | Email для ключа | Email и архив | Форма на сайте |
 | QA после Send | Да | Да | Да | Да |
-| Сценарии QA, прокси, AI, патчи | Нет | Да | Да | Да |
+| Сценарии QA, прокси, AI, патчи, папка, ссылка, MCP | Нет | Да | Да | Да |
 | Прогоны коллекции / папки / нагрузки | 3 / 3 / 1 в месяц | Без лимита | Без лимита | Без лимита |
 | Активные сессии | 2 | 5 | 5 | 1 |
 | Новая сборка | После публикации в магазине | После публикации в магазине | Сразу в архиве | Как Free; zip нет |
@@ -67,12 +69,12 @@ HTTP-клиент и API IDE во вкладке Chrome: REST, GraphQL, WebSocke
 ## Чего нет
 
 - Общего облачного workspace, как у Postman
-- Коллекций файлами в Git, как у Bruno
-- CLI для пайплайна (Newman, `bru`)
+- Встроенного Git-клиента и CLI для CI (Newman, `bru`). Папку коллекции можно экспортировать и положить в репозиторий самим
+- Собственного MCP-сервера: в IDE применяется уже пришедший патч
 - Нативной нагрузки уровня k6 / JMeter — прогоны идут из браузера
 - Нативного gRPC: только JSON-шлюз
 
-Нужны файлы в Git — смотрите Bruno. Нужны облако команды и мониторы — Postman. Нужен клиент **в Chrome**, без обязательного аккаунта и с оплатой с сайта — PolyApiIDE.
+Нужен Git как основной способ хранить коллекции — смотрите Bruno. Нужны облако команды и мониторы — Postman. Нужен клиент **в Chrome**, без обязательного аккаунта и с оплатой с сайта — PolyApiIDE.
 
 ---
 
@@ -102,8 +104,8 @@ PolyApiIDE is an HTTP client and API IDE in a Chrome tab. Collections stay on th
 
 Works in Chrome, Edge, and other Chromium browsers. Buy and demo only on the website, not through the Chrome Web Store.
 
-**Free** — send, import, scripts, QA after Send; monthly run limits. **Month / Year** — QA scenarios, unlimited runs, proxy, AI, patches, up to 5 sessions. **Lifetime** — one-time key plus install archive; line fixes are free; major updates are optional, not “every future version”. **Demo** — 14 days of the paid set, once per email, website form only.
+**Free** — send, import (including HAR), scripts, SSE, QA after Send; monthly run limits. **Month / Year** — QA scenarios, unlimited runs, proxy, AI, patches, folder export, public collection link, incoming MCP patches, up to 5 sessions. **Lifetime** — one-time key plus install archive; line fixes are free; major updates are optional, not “every future version”. **Demo** — 14 days of the paid set, once per email, website form only.
 
-Not included: shared cloud workspace, Git-on-disk collections, CLI/CI runner, native gRPC, k6-class load.
+Not included: shared cloud workspace, a Git client or CLI/CI runner, a built-in MCP server, native gRPC, k6-class load.
 
-Pick **Bruno** for collections as Git files. Pick **Postman** for team cloud and monitors. Pick **PolyApiIDE** for a Chrome tab, local-first Free, and checkout on the website.
+Pick **Bruno** if collections must live in Git as the primary workflow. Pick **Postman** for team cloud and monitors. Pick **PolyApiIDE** for a Chrome tab, local-first Free, and checkout on the website.
