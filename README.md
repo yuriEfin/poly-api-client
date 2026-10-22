@@ -37,7 +37,8 @@ HTTP-клиент и API IDE во вкладке Chrome: REST, GraphQL, WebSocke
 - Импорт на Free: OpenAPI, WSDL, GraphQL, `.proto`, AsyncAPI, HAR, Postman, curl, Insomnia, Hoppscotch, Thunder
 - Захват запросов одной вкладки — только после вашей кнопки
 - Проверки после Send, прогоны коллекций и нагрузка из браузера
-- На платном тарифе: патчи, экспорт коллекции папкой (файлы кладёте в свой репозиторий сами), публичная ссылка на список запросов, применение входящего патча MCP
+- На платном тарифе: патчи, экспорт коллекции папкой (файлы кладёте в свой репозиторий сами), публичная ссылка на список запросов, применение входящего патча и команда от ИИ-инструмента по MCP v2 (client_id, без client_secret)
+- Tweak (Live Rules, платный тариф): локальные правила блокировки/редиректа/подмены заголовков и тела сетевых запросов
 - Интерфейс на русском и английском, светлая и тёмная тема
 
 На сервер уходит только то, что вы сами включили: ключ, ручной бэкап, история помощника, обращение в поддержку.
@@ -70,7 +71,7 @@ HTTP-клиент и API IDE во вкладке Chrome: REST, GraphQL, WebSocke
 
 - Общего облачного workspace, как у Postman
 - Встроенного Git-клиента и CLI для CI (Newman, `bru`). Папку коллекции можно экспортировать и положить в репозиторий самим
-- Собственного MCP-сервера: в IDE применяется уже пришедший патч
+- Собственного MCP-сервера (отдельного процесса): патчи коллекции и job-очередь команд MCP v2 — через обычный REST на нашем сервере
 - Нативной нагрузки уровня k6 / JMeter — прогоны идут из браузера
 - Нативного gRPC: только JSON-шлюз
 
@@ -104,8 +105,8 @@ PolyApiIDE is an HTTP client and API IDE in a Chrome tab. Collections stay on th
 
 Works in Chrome, Edge, and other Chromium browsers. Buy and demo only on the website, not through the Chrome Web Store.
 
-**Free** — send, import (including HAR), scripts, SSE, QA after Send; monthly run limits. **Month / Year** — QA scenarios, unlimited runs, proxy, AI, patches, folder export, public collection link, incoming MCP patches, up to 5 sessions. **Lifetime** — one-time key plus install archive; line fixes are free; major updates are optional, not “every future version”. **Demo** — 14 days of the paid set, once per email, website form only.
+**Free** — send, import (including HAR), scripts, SSE, QA after Send; monthly run limits. **Month / Year** — QA scenarios, unlimited runs, proxy, AI, collection patches, folder export, public collection link, MCP v2 commands from AI tools, Tweak (local network-request rules), up to 5 sessions. **Lifetime** — one-time key plus install archive; line fixes are free; major updates are optional, not “every future version”. **Demo** — 14 days of the paid set, once per email, website form only.
 
-Not included: shared cloud workspace, a Git client or CLI/CI runner, a built-in MCP server, native gRPC, k6-class load.
+Not included: shared cloud workspace, a Git client or CLI/CI runner, a separate MCP server process (patches and MCP v2 commands are plain REST on our server), native gRPC, k6-class load.
 
 Pick **Bruno** if collections must live in Git as the primary workflow. Pick **Postman** for team cloud and monitors. Pick **PolyApiIDE** for a Chrome tab, local-first Free, and checkout on the website.
