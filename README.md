@@ -4,7 +4,7 @@ HTTP-клиент и API IDE во вкладке Chrome или Firefox: REST, Gr
 
 Это официальная страница продукта. **Исходного кода здесь нет.**
 
-[Chrome Web Store](https://chromewebstore.google.com/detail/polyapiide/jladdfejldmbglilemedogoeceohbbmb?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Firefox Add-ons](https://addons.mozilla.org/ru/firefox/addon/http-api-clent-polyapiide/) · [Сайт](https://polyapiclient.ru?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Быстрый старт](https://polyapiclient.ru/quick-start?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Возможности](https://polyapiclient.ru/features?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)
+[Chrome Web Store](https://chromewebstore.google.com/detail/polyapiide/jladdfejldmbglilemedogoeceohbbmb?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Firefox Add-ons](https://addons.mozilla.org/ru/firefox/addon/http-api-client-polyapiide/) · [Сайт](https://polyapiclient.ru?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Быстрый старт](https://polyapiclient.ru/quick-start?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Возможности](https://polyapiclient.ru/features?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)
 
 Подойдут Chrome, Microsoft Edge и другие браузеры на Chromium, а также Firefox.
 
@@ -20,7 +20,7 @@ HTTP-клиент и API IDE во вкладке Chrome или Firefox: REST, Gr
 
 **Firefox**
 
-1. Откройте [карточку в Firefox Add-ons (AMO)](https://addons.mozilla.org/ru/firefox/addon/http-api-clent-polyapiide/).
+1. Откройте [карточку в Firefox Add-ons (AMO)](https://addons.mozilla.org/ru/firefox/addon/http-api-client-polyapiide/).
 2. Нажмите **Добавить в Firefox**.
 3. Дальше — так же, как в Chrome.
 
@@ -134,18 +134,18 @@ HTTP-клиент и API IDE во вкладке Chrome или Firefox: REST, Gr
 
 ## Ссылки
 
-| | |
-|---|---|
+| |                                                                                                                                                                     |
+|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Chrome Web Store | [Установить](https://chromewebstore.google.com/detail/polyapiide/jladdfejldmbglilemedogoeceohbbmb?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) |
-| Firefox Add-ons (AMO) | [Установить](https://addons.mozilla.org/ru/firefox/addon/http-api-clent-polyapiide/) |
-| Сайт | [polyapiclient.ru](https://polyapiclient.ru?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) |
-| Быстрый старт | [polyapiclient.ru/quick-start](https://polyapiclient.ru/quick-start?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) |
-| Возможности | [polyapiclient.ru/features](https://polyapiclient.ru/features?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) |
-| Сравнение с Postman | [polyapiclient.ru/compare](https://polyapiclient.ru/compare?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) |
-| Вопросы и ответы | [polyapiclient.ru/faq](https://polyapiclient.ru/faq?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) |
-| Конфиденциальность | [polyapiclient.ru/privacy](https://polyapiclient.ru/privacy?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) |
-| Соглашение | [polyapiclient.ru/terms](https://polyapiclient.ru/terms?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) |
-| Поддержка | [polyapiclient.ru/support](https://polyapiclient.ru/support?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · support@polyapiide.ru |
+| Firefox Add-ons (AMO) | [Установить](https://addons.mozilla.org/ru/firefox/addon/http-api-client-polyapiide/)                                                                               |
+| Сайт | [polyapiclient.ru](https://polyapiclient.ru?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)                                                       |
+| Быстрый старт | [polyapiclient.ru/quick-start](https://polyapiclient.ru/quick-start?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)                               |
+| Возможности | [polyapiclient.ru/features](https://polyapiclient.ru/features?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)                                     |
+| Сравнение с Postman | [polyapiclient.ru/compare](https://polyapiclient.ru/compare?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)                                       |
+| Вопросы и ответы | [polyapiclient.ru/faq](https://polyapiclient.ru/faq?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)                                               |
+| Конфиденциальность | [polyapiclient.ru/privacy](https://polyapiclient.ru/privacy?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)                                       |
+| Соглашение | [polyapiclient.ru/terms](https://polyapiclient.ru/terms?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)                                           |
+| Поддержка | [polyapiclient.ru/support](https://polyapiclient.ru/support?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · support@polyapiide.ru               |
 
 Баг или пожелание — в Issues этого репозитория, если они включены. Оплата и ключи — только через сайт.
 
