@@ -155,7 +155,7 @@ HTTP-клиент и API IDE во вкладке Chrome или Firefox: REST, Gr
 
 PolyApiIDE is an HTTP client and API IDE in a Chrome or Firefox tab. Collections stay on the device. **Free needs no account.** This repository is the official product page and **does not contain source code**.
 
-[Chrome Web Store](https://chromewebstore.google.com/detail/polyapiide/jladdfejldmbglilemedogoeceohbbmb?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/http-api-clent-polyapiide/) · [Website](https://polyapiclient.ru/en?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Quick start](https://polyapiclient.ru/en/quick-start?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Features](https://polyapiclient.ru/en/features?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)
+[Chrome Web Store](https://chromewebstore.google.com/detail/polyapiide/jladdfejldmbglilemedogoeceohbbmb?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Firefox Add-ons](https://addons.mozilla.org/ru/firefox/addon/http-api-client-polyapiide/) · [Website](https://polyapiclient.ru/en?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Quick start](https://polyapiclient.ru/en/quick-start?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client) · [Features](https://polyapiclient.ru/en/features?utm_source=github&utm_medium=readme&utm_campaign=poly-api-client)
 
 Works in Chrome, Edge, other Chromium browsers, and Firefox. Buy and demo only on the website, not through either store.
 
